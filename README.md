@@ -11,7 +11,7 @@
 ### Download Zip:
 1) Press button "Download Zip"
 2) The "download" folder will contain the downloaded archive, unzip it to any place on your computer
-3) Press button combination "Win+R" and write "cmd". In open console write: dotnet path\to\MyApp.dll
+3) Press buttons combination "Win+R" and write "cmd". In open console write: dotnet path\to\MyApp.dll
 4) Press "Enter" to launch application.
 ### Open with Visual Stido:
 1) Download Visual Studio. link for download: https://visualstudio.microsoft.com/ru/downloads
