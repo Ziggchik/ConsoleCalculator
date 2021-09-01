@@ -1,42 +1,40 @@
-How to work with
-How install project:
-Before getting started, you need to download the project. With this command:
+User Manual
+Installation:
+1) Follow the link https://github.com/Ziggchik/ConsoleCalculator
+2) Press green button "Code"
+![image](https://user-images.githubusercontent.com/70440445/131725484-09fbbd99-bbb1-417d-8a02-b4b6c0e6e8e1.png)
+3) In the drop-down list that opens, select how you want to install the project
 
-git clone https://github.com/Holiks-Serbuchev/CalculatorWEB.git
-cd CalculatorWEB
-dotnet build
-dotnet run
+      ![image](https://user-images.githubusercontent.com/70440445/131725753-8f39cd5f-c8f0-4043-9797-fd262e47fa1d.png)
+      
+Download Zip:
+1) Press button "Download Zip"
+2) The "download" folder will contain the downloaded archive, unzip it to any place on your computer
+3) Press button combination "Win+R" and write "cmd". In open console write: dotnet path\to\MyApp.dll
+4) Press "Enter" to launch application.
+Open with Visual Stido:
+1) Download Visual Studio. link for download: https://visualstudio.microsoft.com/ru/downloads
+2) Press button "Open with Visual Stido"
+3) In Visual Stidio click to button "Clone repository"
+4) Solution will donwload from repository and you can save project (Ctrl+Shift+S) in any place on you computer
+Download with command:
+1) Press button combination "Win+R" and write "cmd"
+2) Write this commands:
+
+    git clonehttps://github.com/Ziggchik/ConsoleCalculator.git
+
+    cd ConsoleCalculator
+
+    dotnet build
+
+    dotnet run
+
+3) After that application will start
 How to use:
-When a new user first logs into the site. He sees the calculator interface itself:
+Short gif which help user with working in application
+![Анимация](https://user-images.githubusercontent.com/70440445/131733385-4306fdae-ece7-47f5-9cef-ac462b65dd5c.gif)
 
-The calculator interface consists:
-
-From multiple input fields;
-And also from several buttons.
-alt text
-
-The calculator has several functions:
-
-Addition;
-Subtraction;
-Multiplication;
-Division;
-Equal;
-Purification.
-To start using the calculator, you just need to start entering the required number and also use the functions that were described above.
-
-An example of using the calculator:
-
-hippo
-
-Architecture
-The project was developed using ASP.NET MVC technology. Using languages such as C# and JavaScript.
-
-The element has been selected to simplify markup. Which made it possible to quickly create a grid for the controls.
-This project used JavaScript to update data in real time. All JavaScript code is stored in js/site.js file.
-The AddValuesTB function allows you to enter numbers into the input field.
-The SelectChar function allows you to select (+, -, /, *).
-The ClearClick function allows you to clear input fields.
-The PointClick function allows you to add a sign for decimal fractions.
-Also, in this project, C# was used to calculate examples.
-C# code has been applied to HomeController. And in the Clicked event, examples are calculated.
+Architecture:
+1) The project create with .NET Core 2.1 and uses the C# language.
+2) All functions release in class Program.cs
+3) Program.cs have main function Main(string[] args) which performs the operation of the calculator like: Addition,Subtraction,Multiplication,Division,Equal,Purification
