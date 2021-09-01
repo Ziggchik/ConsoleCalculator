@@ -34,4 +34,4 @@
 ## Architecture:
 1) The project create with .NET Core 2.1 and uses the C# language.
 2) All functions release in class Program.cs
-3) Program.cs have main function Main(string[] args) which performs the operation of the calculator like: Addition,Subtraction,Multiplication,Division,Equal,Purification
+3) Program.cs have main function Main(string[] args) which performs the operation of the calculator like: Addition, Subtraction, Multiplication, Division, Equal, Purification
