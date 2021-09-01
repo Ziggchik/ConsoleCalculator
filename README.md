@@ -27,7 +27,7 @@
 * dotnet run
 3) After that application will start
 ## How to use:
-Short gif which help user with working in application
+* Short gif which help user with working in application
 
 ![Анимация](https://user-images.githubusercontent.com/70440445/131733385-4306fdae-ece7-47f5-9cef-ac462b65dd5c.gif)
 
